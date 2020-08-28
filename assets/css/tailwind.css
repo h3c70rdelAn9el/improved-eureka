@@ -1,0 +1,15 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@font-face {
+  font-family: Lora;
+  font-weight: 400;
+  src: url('/assets/fonts/Lora-VariableFont_wght.ttf') format('truetype')
+}
+
+@font-face {
+  font-family: Raleway;
+  font-weight: 400;
+  src: url('/assets/fonts/Raleway-VariableFont_wght.ttf') format('truetype')
+}
