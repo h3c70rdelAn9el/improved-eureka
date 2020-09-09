@@ -10,6 +10,7 @@ module.exports = {
       fontFamily: {
         heading: ['Lora', 'serif'],
         body: ['Raleway', 'sans-serif'],
+        title: ['Taviraj', 'serif']
       },
       colors: {
         darkbrown: '#523b35',

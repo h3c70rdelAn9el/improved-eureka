@@ -1,6 +1,11 @@
 <template>
-  <div class="container">
-    <h1>home</h1>
+  <div class="container mx-auto">
+    <div class="block">
+      <h1 class="text-4xl mb-1">The Menjou Galerie</h1>
+      <p class="mb-1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium, dolorum.</p>
+      <img  src="../assets/img/gallery.jpg" alt="" style="height: 26rem;">
+    </div>
+
   </div>
 </template>
 
@@ -21,6 +26,13 @@ export default {}
   justify-content: center;
   align-items: center;
   text-align: center;
+}
+
+.page-enter-active, .page-leave-active {
+  transition: opacity 1s;
+}
+.page-enter, .page-leave-to {
+  opacity: 0;
 }
 
 

@@ -30,6 +30,10 @@ export default {
   */
   css: [
   ],
+  // pageTransition: {
+  //   name: 'fade',
+  //   mode: 'out-in'
+  // },
   /*
   ** Plugins to load before mounting the App
   ** https://nuxtjs.org/guide/plugins
@@ -60,6 +64,29 @@ export default {
   /*
   ** Nuxt.js modules
   */
+//  purging for tailwind:
+  purgeCSS: {
+    mode: 'postcss',
+    extractors: [{
+      extractor: class {
+        static extract(content) {
+          return content.match(/[A-Za-z0-9-_/:]*[A-Za-z0-9-_/]+/g) || [];
+        }
+      }
+    }],
+    whitelistPatterns: [
+      /-(leave|enter|appear)(|-(to|from|active))$/,
+      /^(?!(|.*?:)cursor-move).+-move$/,
+      /^nuxt-link(|-exact)-active$/
+    ]
+  },
+
+  router: {
+    linkActiveClass: 'active-link',
+    linkExactActiveClass: 'exact-active-link'
+  },
+
+
   modules: [
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
@@ -74,5 +101,15 @@ export default {
   ** See https://nuxtjs.org/api/configuration-build/
   */
   build: {
+    // for tailwind:
+     postcss: {
+       preset: {
+         stage: 0
+       },
+       plugins: {
+         tailwindcss: './tailwind.config.js',
+         autoprefixer: {}
+       }
+     }
   }
 }

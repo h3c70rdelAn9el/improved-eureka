@@ -5,11 +5,39 @@
 @font-face {
   font-family: Lora;
   font-weight: 400;
-  src: url('/assets/fonts/Lora-VariableFont_wght.ttf') format('truetype')
+  src: url('/assets/fonts/Lora-VariableFont_wght.ttf') format('truetype');
 }
 
 @font-face {
   font-family: Raleway;
   font-weight: 400;
-  src: url('/assets/fonts/Raleway-VariableFont_wght.ttf') format('truetype')
+  src: url('/assets/fonts/Raleway-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: Taviraj;
+  font-weight: 500;
+  src: url('/assets//fonts/Taviraj-Medium.ttf') format('truetype');
+}
+
+.page-enter-active,
+.page-leave-active {
+  transition: opacity 1s;
+}
+
+.page-enter,
+.page-leave-to {
+  opacity: 0;
+}
+
+.active-link {
+  background: #131101;
+}
+
+.active-link:hover{
+  color: white;
+}
+
+.exact-active-link {
+
 }

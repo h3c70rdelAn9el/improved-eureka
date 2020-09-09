@@ -29,3 +29,13 @@
 
   </div> -->
 </template>
+
+<script>
+export default {
+  transition: {
+    name: 'test',
+    mode: 'out-in',
+    duration: "500"
+  }
+}
+</script>
