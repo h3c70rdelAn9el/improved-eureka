@@ -3,25 +3,12 @@
 
   <div class="container mx-auto">
     <div class="block">
-      <h1 class="text-4xl mb-1">The Menjou Galerie</h1>
+      <h1 class="text-4xl mb-1">The Menjo Galerie</h1>
+      <p class="text-base">Welcome to our fine art gallery</p>
       <p class="mb-1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium, dolorum.</p>
-      <img src="~/assets/img/gallery.jpg" alt="" style="height: 26rem;">
+      <ImageSlider />
     </div>
   </div>
-  <hr class="border border-black my-2">
-  <!-- SLIDER -->
-  <div class="-ml-3">
-    <ImageSlider />
-  </div>
-  <!--
-  <div class="my-3 ml-3 flex w-full">
-    <div>
-      <transition name="fade">
-
-      </transition>
-    </div>
-  </div>
-  -->
 </div>
 </template>
 
@@ -30,13 +17,9 @@ export default {}
 </script>
 
 <style>
-/* Sample `apply` at-rules with Tailwind CSS
-.container {
-@apply min-h-screen flex justify-center items-center text-center mx-auto;
-}
-*/
 .container {
   margin: 0 auto;
+  margin-top: -28px;
   min-height: 100vh;
   display: flex;
   justify-content: center;
@@ -44,6 +27,7 @@ export default {}
   text-align: center;
 }
 
+/*
 .page-enter-active,
 .page-leave-active {
   transition: opacity 1s;
@@ -53,4 +37,5 @@ export default {}
 .page-leave-to {
   opacity: 0;
 }
+*/
 </style>
