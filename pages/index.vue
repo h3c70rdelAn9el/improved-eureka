@@ -1,12 +1,28 @@
 <template>
+<div>
+
   <div class="container mx-auto">
     <div class="block">
       <h1 class="text-4xl mb-1">The Menjou Galerie</h1>
       <p class="mb-1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium, dolorum.</p>
-      <img  src="../assets/img/gallery.jpg" alt="" style="height: 26rem;">
+      <img src="~/assets/img/gallery.jpg" alt="" style="height: 26rem;">
     </div>
-
   </div>
+  <hr class="border border-black my-2">
+  <!-- SLIDER -->
+  <div class="-ml-3">
+    <ImageSlider />
+  </div>
+  <!--
+  <div class="my-3 ml-3 flex w-full">
+    <div>
+      <transition name="fade">
+
+      </transition>
+    </div>
+  </div>
+  -->
+</div>
 </template>
 
 <script>
@@ -28,12 +44,13 @@ export default {}
   text-align: center;
 }
 
-.page-enter-active, .page-leave-active {
+.page-enter-active,
+.page-leave-active {
   transition: opacity 1s;
 }
-.page-enter, .page-leave-to {
+
+.page-enter,
+.page-leave-to {
   opacity: 0;
 }
-
-
 </style>
