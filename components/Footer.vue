@@ -1,7 +1,7 @@
 <template>
 <div class="flex justify-between bg-chocolate h-full text-white">
   <div class="p-4">
-    <p class="text-base">The Menjour Galerie &copy; 2020</p>
+    <p class="text-base">The Menjou Galerie &copy; 2020</p>
     <hr>
     <section class="text-xs">
       <p>All images from the awesome <a href="https://unsplash.com/">unsplash.com</a></p>
