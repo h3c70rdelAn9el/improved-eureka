@@ -33,6 +33,10 @@ export default {
     id: {
       type: String,
       required: true
+    },
+    tag: {
+      type: '',
+      required: true
     }
   }
 }

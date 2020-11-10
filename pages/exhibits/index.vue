@@ -7,14 +7,14 @@
       <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
         <!-- Article -->
         <section class="overflow-hidden rounded-lg shadow-lg">
-          <a href="#">
+          <nuxt-link to="/exhibits/surreal">
             <img alt="Surreal" class="block h-64 w-full rounded-lg shadow-xl" src="~/assets/img/surreal1.jpg">
-          </a>
+          </nuxt-link>
           <header class="bg-lightbrown opacity-75 p-2 md:p-4">
             <h1 class="text-2xl text-center">
-              <a class="no-underline font-heading tracking-wide hover:text-lightbrown hover:bg-chocolate text-black text-center" href="#">
+              <nuxt-link class="no-underline font-heading tracking-wide hover:text-lightbrown hover:bg-chocolate text-black text-center" to="/exhibits/surreal">
                 Surreal Galerie
-              </a>
+              </nuxt-link>
             </h1>
             <p class="text-center font-body">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, accusamus.
@@ -28,14 +28,14 @@
       <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
         <!-- Article -->
         <section class="overflow-hidden rounded-lg shadow-lg">
-          <a href="#">
+          <nuxt-link to="/exhibits/abstract">
             <img alt="abstract" class="block h-64 w-full rounded-lg shadow-xl" src="~/assets/img/abstract1.jpg">
-          </a>
+          </nuxt-link>
           <header class="bg-lightbrown opacity-75 p-2 md:p-4">
             <h1 class="text-2xl text-center">
-              <a class="no-underline font-heading tracking-wide hover:text-lightbrown hover:bg-chocolate text-black text-center" href="#">
+              <nuxt-link class="no-underline font-heading tracking-wide hover:text-lightbrown hover:bg-chocolate text-black text-center" to="/exhibits/abstract">
                 Abstract Galerie
-              </a>
+              </nuxt-link>
               <!--
               <nuxt-link to="/exhibits/abstract">
                 Abstract
