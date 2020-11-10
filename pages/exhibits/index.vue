@@ -1,6 +1,7 @@
 <template>
 <div>
-  <div class="my-4 mx-auto px-4 md:px-8">
+  <div class="mb-4 -mt-4 mx-auto px-4 md:px-8">
+    <h1 class="text-4xl pb-2 font-title text-center">Exhibits</h1>
     <div class="flex flex-wrap -mx-1 lg:-mx-4">
       <!--1st Column -->
       <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
@@ -35,6 +36,11 @@
               <a class="no-underline font-heading tracking-wide hover:text-lightbrown hover:bg-chocolate text-black text-center" href="#">
                 Abstract Galerie
               </a>
+              <!--
+              <nuxt-link to="/exhibits/abstract">
+                Abstract
+              </nuxt-link>
+              -->
             </h1>
             <p class="text-center font-body">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam, illo quasi.
