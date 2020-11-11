@@ -9,7 +9,7 @@
     <nuxt-link to="/exhibits" class="rounded p-1 mb-4 text-lg no-underline hover:text-chocolate ml-2">
       Exhibits
     </nuxt-link>
-    <nuxt-link to="/comingsoon" class="rounded p-1 mb-4 h-13text-lg no-underline hover:text-chocolate ml-2">
+    <nuxt-link to="/comingsoon" class="rounded p-1 mb-4 h-13 text-lg no-underline hover:text-chocolate ml-2">
       Coming Soon
     </nuxt-link>
     <nuxt-link to="/contact" class="rounded p-1 mb-4 text-lg no-underline hover:text-chocolate ml-2">

@@ -30,7 +30,6 @@ export default {
         starts_with: 'surreal-collection/'
       })
       .then(res => {
-        // console.log(res);
         return {
           works: res.data.stories.map(cp => {
             return {
