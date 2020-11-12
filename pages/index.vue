@@ -2,7 +2,7 @@
 <div>
   <div class="container mx-auto">
     <div class="block">
-      <h1 class="text-4xl mb-1">The Menjou Galerie</h1>
+      <h1 class="text-4xl mb-1 -mt-12">The Menjou Galerie</h1>
       <p class="text-base">Welcome to our fine art gallery</p>
       <p class="mb-1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium, dolorum.</p>
       <ImageSlider />

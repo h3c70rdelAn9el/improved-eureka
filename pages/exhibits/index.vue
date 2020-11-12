@@ -1,10 +1,10 @@
 <template>
 <div>
-  <div class="mb-4 -mt-4 mx-auto px-4 md:px-8">
+  <div class="mb-4 -mt-4 mx-auto px-4 md:px-8 xl:w-5/6">
     <h1 class="text-4xl pb-2 font-title text-center">Exhibits</h1>
     <div class="flex flex-wrap -mx-1 lg:-mx-4">
       <!--1st Column -->
-      <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
+      <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/2">
         <!-- Article -->
         <section class="overflow-hidden rounded-lg shadow-lg">
           <nuxt-link to="/exhibits/surreal">
@@ -25,7 +25,7 @@
       <!-- End 1st Column -->
 
       <!-- 2nd Column -->
-      <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
+      <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/2">
         <!-- Article -->
         <section class="overflow-hidden rounded-lg shadow-lg">
           <nuxt-link to="/exhibits/abstract">
